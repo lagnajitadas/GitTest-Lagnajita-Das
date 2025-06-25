@@ -1,1 +1,70 @@
 
+\documentclass[12pt]{article}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+% Custom section formatting
+\titleformat{\section}{\bfseries\Large}{}{0em}{}
+\renewcommand{\baselinestretch}{1.2}
+
+\begin{document}
+
+%------------------ Header with photo ------------------
+\begin{minipage}[t]{0.7\textwidth}
+\begin{flushleft}
+\textbf{\Huge Lagnajita Das} \
+\textbf{Email:} Lagna@example.com \
+\textbf{Phone:} +91 1234567890 \
+\textbf{Address:} Kalyani,West Bengal
+\end{flushleft}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.25\textwidth}
+\begin{flushright}
+\includegraphics[width=1.2in,height=1.4in]{passport_photo.jpg}
+\end{flushright}
+\end{minipage}
+
+\vspace{0.5cm}
+
+%------------------ Section: Degrees ------------------
+\section*{Degrees, Institutions, and Degree Dates}
+\begin{tabular}{|p{4.5cm}|p{5cm}|p{4cm}|}
+\hline
+\textbf{Degree} & \textbf{Institution} & \textbf{Year} \
+\hline
+Madhyamik & Kalyani High School & 2022 \Higher Secondary & Kalyani High School & 2024 \
+Doing BCA & Kalyani University & 2025 \
+\hline
+\end{tabular}
+
+\vspace{0.5cm}
+
+%------------------ Section: Awards and Achievements ------------------
+\section*{Awards and Achievements}
+\begin{itemize}[leftmargin=*]
+\item Best AI Assistant Award – Tech Expo 2024
+\item OpenAI Excellence in Research Award – 2024
+\item Top Performer in AI Hackathon – 2025
+\item Published 10+ papers in international journals
+\end{itemize}
+
+%------------------ Section: Skills ------------------
+\section*{Languages, Computer and Other Skills}
+\begin{itemize}[leftmargin=*]
+\item \textbf{Languages:} English (Fluent), Python (Fluent), JavaScript (Intermediate)
+\item \textbf{Software:} LaTeX, MS Office,Git
+\item \textbf{Technical:} Machine Learning, Deep Learning, Web Development
+\end{itemize}
+
+%------------------ Section: Activities and Interests ------------------
+\section*{Activities and Interests}
+\begin{itemize}[leftmargin=*]
+\item Blogging about AI and tech trends
+\item Playing chess and solving logic puzzles
+\end{itemize}
+
+\end{document}
